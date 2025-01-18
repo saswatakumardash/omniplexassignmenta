@@ -1,25 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.fallback = {
-        ...config.resolve.fallback,
-        fs: false,
-        net: false,
-        tls: false,
-        crypto: false,
-      };
-    }
-    return config;
+  reactStrictMode: true,
+  images: {
+    domains: [
+      'lh3.googleusercontent.com',  // For Google profile photos
+      'googleusercontent.com',
+    ],
   },
-  transpilePackages: ['@firebase/auth', 'firebase', '@firebase/app'],
-  eslint: {
-    ignoreDuringBuilds: true,
-},
-typescript: {
-  ignoreBuildErrors: true,
 }
 
-};
-
-module.exports = nextConfig; 
+module.exports = nextConfig 

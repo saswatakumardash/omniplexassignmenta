@@ -4,14 +4,14 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 // Firebase Config
-export const firebaseConfig = {
-  apiKey: "AIzaSyA7qPFM559Tq98aQr8HAN8GQH9isvWbkQg",
-  authDomain: "scam-2025.firebaseapp.com",
-  projectId: "scam-2025",
-  storageBucket: "scam-2025.firebasestorage.app",
-  messagingSenderId: "377711019637",
-  appId: "1:377711019637:web:ff7da7d8700f2b25169a3c",
-  measurementId: "G-WZ230GCFTJ"
+const firebaseConfig = {
+  apiKey: "AIzaSyBqAoxdptEDpXieOm3wK6UtVQcvI4SYxBM",
+  authDomain: "omniplexai1.firebaseapp.com",
+  projectId: "omniplexai1",
+  storageBucket: "omniplexai1.firebasestorage.app",
+  messagingSenderId: "699231184743",
+  appId: "1:699231184743:web:5c7c43c01f306aa5deb1c2",
+  measurementId: "G-0BM22XV0JW"
 };
 
 const app = initializeApp(firebaseConfig);

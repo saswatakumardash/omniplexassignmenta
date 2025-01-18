@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@firebase/auth": "^1.6.0",
     "@firebase/firestore": "^4.5.0",
     "@firebase/storage": "^0.12.2",
     "@headlessui/react": "^2.0.3",
@@ -24,8 +25,7 @@
     "@vercel/og": "^0.6.2",
     "@vercel/speed-insights": "^1.0.10",
     "ai": "^3.0.12",
-    "firebase": "^10.8.0",
-    "@firebase/auth": "^1.6.0",
+    "firebase": "^11.2.0",
     "formidable": "^3.5.1",
     "framer-motion": "^11.0.15",
     "googleapis": "^134.0.0",
@@ -50,11 +50,12 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
+    "@types/firebase": "^3.2.3",
     "@types/formidable": "^3.4.5",
     "@types/mixpanel-browser": "^2.49.0",
     "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
     "@types/react-syntax-highlighter": "^15.5.11",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
